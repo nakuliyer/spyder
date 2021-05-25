@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.17)
 project(spyder)
 
 set(CMAKE_CXX_STANDARD 11)
-#set(CMAKE_CXX_FLAGS -I/usr/local/include)
+set(CMAKE_BUILD_TYPE Release)
 
 add_executable(spyder main.cpp src/spyder.cc src/bg.cc src/card.cc src/const.cc src/pile.cc src/pile.h)
 
